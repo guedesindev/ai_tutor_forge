@@ -83,4 +83,4 @@ O resultado é um prompt que, quando inserido em uma LLM, cria um mentor virtual
 
 📃 Linceça
 
-Este projeto está sob a licença GNU GPLv3 - Veja o arquivo [License](".\LICENSE") para detalhes.
+Este projeto está sob a licença GNU GPLv3 - Veja o arquivo [License]("LICENSE") para detalhes.
