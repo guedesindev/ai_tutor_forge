@@ -1,8 +1,8 @@
 import requests
 import json
 
-print("--- LISTANDO MODELOS DISPONÍVEIS ---")
-API_KEY = input("Cole sua API Key: ").strip()
+# print("--- LISTANDO MODELOS DISPONÍVEIS ---")
+# API_KEY = input("Cole sua API Key: ").strip()
 
 
 def escolher_modelo(api_key):
@@ -28,7 +28,7 @@ def escolher_modelo(api_key):
                 # Verifica se o modelo serve para gerar conteúdo
                 if "generateContent" in m.get("supportedGenerationMethods", []):
                     nome_limpo = m["name"].replace("models/", "")
-                    print(f" - {nome_limpo}")
+                    # print(f" - {nome_limpo}")
                     modelos_disponiveis.append(nome_limpo)
         else:
             print(
@@ -68,4 +68,4 @@ def escolher_modelo(api_key):
         print(f"Erro fatal: {e}")
 
 
-# escolher_modelo(API_KEY)
+# escolher_modelo(API_KEY) TESTE do script
