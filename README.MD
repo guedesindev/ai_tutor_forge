@@ -76,9 +76,11 @@ O resultado é um prompt que, quando inserido em uma LLM, cria um mentor virtual
 
 🔮 Roadmap (Próximos Passos)
 
-[] Interface Gráfica (WEB) com FastAPI.
-[] Integração de Login Social (Google).
-[] Banco de Dados para salvar histórico de aprendizado.
+- [ ] Interface Gráfica (WEB) com FastAPI.<br>
+- [ ] Integração de Login Social (Google).<br>
+- [ ] Banco de Dados para salvar histórico de aprendizado.<br>
+
 
 📃 Linceça
-Este projeto está sob a licença GNU GPLv3 - Veja o arquivo [License]("https://github.com/guedesindev/ai_tutor_forge/blob/main/LICENSE") para detalhes.
+
+Este projeto está sob a licença GNU GPLv3 - Veja o arquivo [License](".\LICENSE") para detalhes.
