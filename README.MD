@@ -81,4 +81,4 @@ O resultado é um prompt que, quando inserido em uma LLM, cria um mentor virtual
 [] Banco de Dados para salvar histórico de aprendizado.
 
 📃 Linceça
-Este projeto está sob a licença GNU GPLv3 - Veja o arquivo ![License](".\ai_tutor_forge\LICENSE") para detalhes.
+Este projeto está sob a licença GNU GPLv3 - Veja o arquivo ![License]("https://github.com/guedesindev/ai_tutor_forge/blob/main/LICENSE") para detalhes.
