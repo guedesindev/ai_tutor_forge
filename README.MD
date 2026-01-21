@@ -20,8 +20,8 @@ O resultado é um prompt que, quando inserido em uma LLM, cria um mentor virtual
 ## ✨ Funcionalidades
 
 - **🔍 Consultor de Projetos:** Não sabe o que criar? A IA sugere 3 projetos práticos baseados no que você quer aprender.
-- **🛡️ COmpatibilidade Extrema:** Funciona nativamente no **Python 3.13+** utilizando chamadas REST puras (sem dependência de SDKs legados).
-- **🚀 Gemini 2.5 Flash:** Otimizado para o modelo mais recente e rápido do Google
+- **🛡️ Compatibilidade Extrema:** Funciona nativamente no **Python 3.13+** utilizando chamadas REST puras (sem dependência de SDKs legados).
+- **🚀 Modelo de IA Variável:** O script busca os modelos disponíveis na conta do usuário e irá buscar a opção mais otimizada para a atividade. Preferível o modelo `*flash`.
 - **🔓 Safety Filter Bypass:** Configuração inteligente para evitar bloqueios indevidos em tópicos de programação inofensivos.
 - **📝 Geração de Meta-Prompt:** Cria a "`persona`" perfeita para o seu professor virtual.
 
