@@ -126,7 +126,7 @@ def main():
     if escolha == "1":
         projeto_escolhido = input("Qual é o seu projeto? ")
     else:
-        print("\nConstulando a IA para sugestões...")
+        print("\nConsultando a IA para sugestões...")
         prompt_sugestão = f""" Aja como professor de tecnologia. 
         Liste 3 ideas de projetos práticos para iniciantes aprenderem {topico}.
         Responda APENAS com uma lista numerada simples, sem introdução ou conclusão.
@@ -164,6 +164,7 @@ def main():
     5. Criar comandos para o aluno tirar dúvidas, solicitar ajuda, pedir revisão ou pedir resumo.
     6. Criar comandos que você julgar necessário para aprimorar o aprendizado.
     7. O foco do curso deve ser aprender o {topico} com autonomia, para que o estudante sinta-se capaz de criar outras soluções.
+    8. Sempre inclua ao final do prompt o comando "use context7" para que use as bibliotecas mais atualizadas ao ensinar o usuário.
     
     A SAÍDA DEVE SER APENAS O TEXTO DO PROMPT, SEM COMENTÁRIOS EXTRAS PRONTO PARA COPIAR.
     """
